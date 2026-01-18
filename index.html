@@ -68,7 +68,7 @@
     <header class="relative min-h-screen flex items-end pb-20 pt-32 px-6 bg-slate-900 overflow-hidden">
         <!-- Dynamic Background Image (Local) -->
         <div class="absolute inset-0 z-0">
-            <img src="images/20240517_094945.jpg" class="w-full h-full object-cover opacity-60" alt="Sailing Sicily">
+            <img src="images/20240517_094945.jpg" class="w-full h-full object-cover opacity-60" alt="Sailing Sicily" fetchpriority="high">
             <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent"></div>
         </div>
 
@@ -192,14 +192,14 @@
                         </p>
                     </div>
                     <div class="order-1 md:order-2 h-80 rounded-[2rem] overflow-hidden opacity-80 group-hover:opacity-100 transition-opacity">
-                        <img src="images/palermo-2.jpg" class="w-full h-full object-cover" alt="Palermo Harbor">
+                        <img src="images/palermo-2.jpg" class="w-full h-full object-cover" alt="Palermo Harbor" loading="lazy" decoding="async">
                     </div>
                 </div>
 
                 <!-- Stop 2: Vulcano -->
                 <div class="grid md:grid-cols-2 gap-12 items-center group">
                     <div class="h-80 rounded-[2rem] overflow-hidden opacity-80 group-hover:opacity-100 transition-opacity">
-                        <img src="images/vulcano-1.jpg" class="w-full h-full object-cover" alt="Vulcano Island">
+                        <img src="images/vulcano-1.jpg" class="w-full h-full object-cover" alt="Vulcano Island" loading="lazy" decoding="async">
                     </div>
                     <div>
                         <div class="text-6xl text-slate-800 font-serif font-bold mb-4 group-hover:text-slate-700 transition-colors">02</div>
@@ -225,14 +225,14 @@
                         </p>
                     </div>
                     <div class="order-1 md:order-2 h-80 rounded-[2rem] overflow-hidden opacity-80 group-hover:opacity-100 transition-opacity">
-                        <img src="images/panarea-1.jpg" class="w-full h-full object-cover" alt="Panarea Streets">
+                        <img src="images/panarea-1.jpg" class="w-full h-full object-cover" alt="Panarea Streets" loading="lazy" decoding="async">
                     </div>
                 </div>
 
                 <!-- Stop 4: Stromboli -->
                 <div class="grid md:grid-cols-2 gap-12 items-center group">
                     <div class="h-80 rounded-[2rem] overflow-hidden opacity-80 group-hover:opacity-100 transition-opacity">
-                        <img src="images/stromboli-2.jpg" class="w-full h-full object-cover" alt="Stromboli Volcano">
+                        <img src="images/stromboli-2.jpg" class="w-full h-full object-cover" alt="Stromboli Volcano" loading="lazy" decoding="async">
                     </div>
                     <div>
                         <div class="text-6xl text-slate-800 font-serif font-bold mb-4 group-hover:text-slate-700 transition-colors">04</div>
@@ -255,14 +255,14 @@
                         </p>
                     </div>
                     <div class="order-1 md:order-2 h-80 rounded-[2rem] overflow-hidden opacity-80 group-hover:opacity-100 transition-opacity">
-                        <img src="images/salina.png" class="w-full h-full object-cover" alt="Salina Landscapes">
+                        <img src="images/salina.png" class="w-full h-full object-cover" alt="Salina Landscapes" loading="lazy" decoding="async">
                     </div>
                 </div>
 
                 <!-- Stop 6: Lipari -->
                 <div class="grid md:grid-cols-2 gap-12 items-center group">
                     <div class="h-80 rounded-[2rem] overflow-hidden opacity-80 group-hover:opacity-100 transition-opacity">
-                        <img src="images/lipari.png" class="w-full h-full object-cover" alt="Lipari Castle">
+                        <img src="images/lipari.png" class="w-full h-full object-cover" alt="Lipari Castle" loading="lazy" decoding="async">
                     </div>
                     <div>
                         <div class="text-6xl text-slate-800 font-serif font-bold mb-4 group-hover:text-slate-700 transition-colors">06</div>
@@ -427,9 +427,38 @@
                 <span class="text-xs font-bold tracking-widest uppercase group-hover:tracking-[0.2em] transition-all duration-300">@velavidasails</span>
             </a>
 
-            <p class="text-slate-600 text-sm">Vela Vida &bull; Sicily Expedition 2026</p>
+            <p class="text-slate-600 text-sm mb-4">Vela Vida &bull; Sicily Expedition 2026</p>
+            <a href="privacy.html" class="text-xs text-slate-700 hover:text-slate-500 transition-colors">Privacy Policy</a>
         </div>
     </footer>
 
+    <!-- Cookie Consent -->
+    <div id="cookie-banner" class="fixed bottom-0 left-0 w-full bg-white/95 backdrop-blur-md border-t border-slate-200 p-6 z-50 transform translate-y-full transition-transform duration-500 shadow-[0_-10px_40px_rgba(0,0,0,0.1)]">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
+            <p class="text-slate-600 text-sm max-w-2xl text-center md:text-left">
+                We use cookies to enhance your experience. By continuing to visit this site you agree to our use of cookies. 
+                <a href="privacy.html" class="text-blue-600 hover:underline">Learn more</a>.
+            </p>
+            <div class="flex gap-4">
+                <button onclick="acceptCookies()" class="px-6 py-2.5 bg-slate-900 text-white rounded-full text-xs font-bold uppercase tracking-widest hover:bg-blue-600 transition-colors">
+                    Accept
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Check if user has already accepted
+        if (!localStorage.getItem('cookiesAccepted')) {
+            setTimeout(() => {
+                document.getElementById('cookie-banner').classList.remove('translate-y-full');
+            }, 1000);
+        }
+
+        function acceptCookies() {
+            localStorage.setItem('cookiesAccepted', 'true');
+            document.getElementById('cookie-banner').classList.add('translate-y-full');
+        }
+    </script>
 </body>
 </html>
