@@ -46,10 +46,13 @@
 
     <!-- Navigation -->
     <nav class="fixed w-full z-50 top-0 left-0 border-b border-slate-200/50 glass-nav">
-        <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
-            <a href="index.html" class="flex items-center gap-3 group cursor-pointer">
-                <img src="images/VelaVidaLogo.png" alt="Vela Vida Logo" class="w-12 h-12 rounded-full object-cover group-hover:opacity-80 transition-opacity">
-                <div class="text-sm font-bold tracking-widest uppercase">Vela Vida</div>
+<div class="max-w-7xl mx-auto px-6 h-24 flex justify-between items-center transition-all duration-300">
+            <a href="index.html" class="flex items-center gap-4 group cursor-pointer">
+                <img src="images/VelaVidaLogo.png" alt="Vela Vida Logo" class="h-20 w-auto object-contain rounded-2xl group-hover:scale-105 transition-transform duration-500 ease-out">
+                <div class="flex flex-col">
+                    <span class="text-2xl font-['Fraunces'] font-bold tracking-wider text-slate-900 group-hover:text-blue-700 transition-colors">Vela Vida</span>
+                    <span class="text-[0.6rem] font-bold uppercase tracking-[0.3em] text-slate-400 group-hover:text-blue-400 transition-colors">Yachting</span>
+                </div>
             </a>
             
             <div class="hidden md:flex items-center space-x-10 text-xs font-bold uppercase tracking-[0.2em] text-slate-500">
@@ -58,7 +61,7 @@
                 <a href="#gallery" class="hover:text-blue-600 transition-colors">Moments</a>
             </div>
 
-            <a href="#join" class="px-6 py-3 bg-slate-900 text-white text-xs font-bold uppercase tracking-widest rounded-full hover:bg-blue-600 hover:shadow-lg hover:shadow-blue-600/20 transition-all transform active:scale-95">
+            <a href="#join" class="px-8 py-3 bg-slate-900 text-white text-xs font-bold uppercase tracking-widest rounded-full hover:bg-blue-600 hover:shadow-xl hover:shadow-blue-600/20 transition-all transform hover:-translate-y-0.5 active:scale-95">
                 Join 2026
             </a>
         </div>
@@ -294,6 +297,22 @@
                 <div class="break-inside-avoid rounded-3xl overflow-hidden hover-lift shadow-lg">
                     <img src="images/IMG-20240516-WA0057.jpg" class="w-full object-cover" loading="lazy" alt="Crew Vibes">
                 </div>
+
+                <!-- Video Moment -->
+                <div class="break-inside-avoid rounded-3xl overflow-hidden hover-lift shadow-lg group cursor-pointer relative" onclick="openVideoModal('images/0120.mp4')">
+                    <video class="w-full h-80 object-cover" muted loop playsinline preload="metadata" onmouseover="this.play()" onmouseout="this.pause()">
+                        <source src="images/0120.mp4" type="video/mp4">
+                    </video>
+                    <div class="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors flex items-center justify-center pointer-events-none">
+                        <div class="w-16 h-16 bg-white/30 backdrop-blur-md rounded-full flex items-center justify-center text-white border border-white/50 shadow-lg group-hover:scale-110 transition-transform duration-300">
+                            <i class="fas fa-play ml-1 text-2xl"></i>
+                        </div>
+                        <div class="absolute bottom-4 right-4 px-3 py-1 bg-black/50 backdrop-blur text-white text-[10px] font-bold uppercase tracking-widest rounded-full flex items-center gap-2">
+                            <span class="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse"></span>
+                            Video
+                        </div>
+                    </div>
+                </div>
                 <div class="break-inside-avoid rounded-3xl overflow-hidden hover-lift shadow-lg">
                     <img src="images/20240512_163551.jpg" class="w-full object-cover" loading="lazy" alt="Ocean View">
                 </div>
@@ -432,6 +451,21 @@
         </div>
     </footer>
 
+    <!-- Video Modal -->
+    <div id="video-modal" class="fixed inset-0 z-[100] bg-slate-900/95 backdrop-blur-xl hidden opacity-0 transition-opacity duration-300 flex items-center justify-center p-4" onclick="closeVideoModal()">
+        <div class="absolute top-8 right-8 z-10 cursor-pointer group" role="button" aria-label="Close video" tabindex="0" onkeydown="if(event.key === 'Enter' || event.key === ' ') closeVideoModal()">
+            <div class="w-12 h-12 bg-white/10 backdrop-blur rounded-full flex items-center justify-center text-white group-hover:bg-white/20 transition-colors">
+                <i class="fas fa-times text-xl"></i>
+            </div>
+        </div>
+        
+        <div class="relative w-full max-w-6xl rounded-[2rem] overflow-hidden shadow-2xl transform scale-95 transition-all duration-300" onclick="event.stopPropagation()">
+            <video id="modal-video-player" class="w-full h-auto max-h-[85vh] bg-black" controls>
+                <source src="" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
     <!-- Cookie Consent -->
     <div id="cookie-banner" class="fixed bottom-0 left-0 w-full bg-white/95 backdrop-blur-md border-t border-slate-200 p-6 z-50 transform translate-y-full transition-transform duration-500 shadow-[0_-10px_40px_rgba(0,0,0,0.1)]">
         <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
@@ -459,6 +493,48 @@
             localStorage.setItem('cookiesAccepted', 'true');
             document.getElementById('cookie-banner').classList.add('translate-y-full');
         }
+
+        /* Video Modal Logic */
+        function openVideoModal(videoSrc) {
+            const modal = document.getElementById('video-modal');
+            const player = document.getElementById('modal-video-player');
+            
+            player.src = videoSrc;
+            modal.classList.remove('hidden');
+            
+            // Trigger reflow/animation
+            requestAnimationFrame(() => {
+                modal.classList.remove('opacity-0');
+                const content = modal.querySelector('div.relative');
+                content.classList.remove('scale-95');
+                content.classList.add('scale-100');
+            });
+            
+            player.play().catch(e => console.log('Autoplay prevented:', e));
+        }
+
+        function closeVideoModal() {
+            const modal = document.getElementById('video-modal');
+            const player = document.getElementById('modal-video-player');
+            
+            modal.classList.add('opacity-0');
+            const content = modal.querySelector('div.relative');
+            content.classList.remove('scale-100');
+            content.classList.add('scale-95');
+            
+            setTimeout(() => {
+                modal.classList.add('hidden');
+                player.pause();
+                player.src = ''; // clear source
+            }, 300);
+        }
+
+        // Close on Escape key
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                closeVideoModal();
+            }
+        });
     </script>
 </body>
 </html>
