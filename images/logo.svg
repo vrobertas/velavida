@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Stylized V / Sail Shape -->
+  <path d="M50 5 L90 85 L50 95 L10 85 L50 5Z" fill="#0f172a" opacity="0.1"/>
+  
+  <!-- Left Sail (Deep Blue) -->
+  <path d="M50 10 L50 85 L20 75 C20 75 15 50 50 10Z" fill="#0f172a"/>
+  
+  <!-- Right Sail (Gold/Accent) -->
+  <path d="M55 25 L80 75 L55 82 V25Z" fill="#d4af37"/>
+  
+  <!-- Water/Hull Element (Abstract) -->
+  <path d="M25 82 C25 82 40 92 60 88 L50 92 L30 85" stroke="#d4af37" stroke-width="2" stroke-linecap="round"/>
+</svg>
