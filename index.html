@@ -307,12 +307,15 @@
     >
       <!-- Dynamic Background Image (Local) -->
       <div class="absolute inset-0 z-0">
-        <img
-          src="images/20240517_094945.jpg"
-          class="w-full h-full object-cover opacity-60"
-          alt="Sailing Sicily"
-          fetchpriority="high"
-        />
+        <picture>
+          <source srcset="images/20240517_094945.webp" type="image/webp" />
+          <img
+            src="images/20240517_094945.jpg"
+            class="w-full h-full object-cover opacity-60"
+            alt="Sailing yacht cruising through blue Mediterranean waters near Sicily coast"
+            fetchpriority="high"
+          />
+        </picture>
         <div
           class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent"
         ></div>
@@ -508,13 +511,16 @@
             <div
               class="order-1 md:order-2 h-80 rounded-[2rem] overflow-hidden opacity-80 group-hover:opacity-100 transition-opacity"
             >
-              <img
-                src="images/palermo-2.jpg"
-                class="w-full h-full object-cover"
-                alt="Palermo Harbor"
-                loading="lazy"
-                decoding="async"
-              />
+              <picture>
+                <source srcset="images/palermo-2.webp" type="image/webp" />
+                <img
+                  src="images/palermo-2.jpg"
+                  class="w-full h-full object-cover"
+                  alt="Palermo harbor with yachts moored at sunset, Sicily sailing starting point"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </picture>
             </div>
           </div>
 
@@ -523,13 +529,16 @@
             <div
               class="h-80 rounded-[2rem] overflow-hidden opacity-80 group-hover:opacity-100 transition-opacity"
             >
-              <img
-                src="images/vulcano-1.jpg"
-                class="w-full h-full object-cover"
-                alt="Vulcano Island"
-                loading="lazy"
-                decoding="async"
-              />
+              <picture>
+                <source srcset="images/vulcano-1.webp" type="image/webp" />
+                <img
+                  src="images/vulcano-1.jpg"
+                  class="w-full h-full object-cover"
+                  alt="Vulcano Island volcanic landscape with steaming crater, Aeolian Islands"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </picture>
             </div>
             <div>
               <div
@@ -565,13 +574,16 @@
             <div
               class="order-1 md:order-2 h-80 rounded-[2rem] overflow-hidden opacity-80 group-hover:opacity-100 transition-opacity"
             >
-              <img
-                src="images/panarea-1.jpg"
-                class="w-full h-full object-cover"
-                alt="Panarea Streets"
-                loading="lazy"
-                decoding="async"
-              />
+              <picture>
+                <source srcset="images/panarea-1.webp" type="image/webp" />
+                <img
+                  src="images/panarea-1.jpg"
+                  class="w-full h-full object-cover"
+                  alt="Panarea Island whitewashed streets and boutique cafes, Aeolian Islands"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </picture>
             </div>
           </div>
 
@@ -580,13 +592,16 @@
             <div
               class="h-80 rounded-[2rem] overflow-hidden opacity-80 group-hover:opacity-100 transition-opacity"
             >
-              <img
-                src="images/stromboli-2.jpg"
-                class="w-full h-full object-cover"
-                alt="Stromboli Volcano"
-                loading="lazy"
-                decoding="async"
-              />
+              <picture>
+                <source srcset="images/stromboli-2.webp" type="image/webp" />
+                <img
+                  src="images/stromboli-2.jpg"
+                  class="w-full h-full object-cover"
+                  alt="Stromboli active volcano eruption at night with lava flow, Sicily sailing destination"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </picture>
             </div>
             <div>
               <div
@@ -621,13 +636,16 @@
             <div
               class="order-1 md:order-2 h-80 rounded-[2rem] overflow-hidden opacity-80 group-hover:opacity-100 transition-opacity"
             >
-              <img
-                src="images/salina.png"
-                class="w-full h-full object-cover"
-                alt="Salina Landscapes"
-                loading="lazy"
-                decoding="async"
-              />
+              <picture>
+                <source srcset="images/salina.webp" type="image/webp" />
+                <img
+                  src="images/salina.png"
+                  class="w-full h-full object-cover"
+                  alt="Salina Island lush green vineyards and Malvasia wine country, Aeolian archipelago"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </picture>
             </div>
           </div>
 
@@ -636,13 +654,16 @@
             <div
               class="h-80 rounded-[2rem] overflow-hidden opacity-80 group-hover:opacity-100 transition-opacity"
             >
-              <img
-                src="images/lipari.png"
-                class="w-full h-full object-cover"
-                alt="Lipari Castle"
-                loading="lazy"
-                decoding="async"
-              />
+              <picture>
+                <source srcset="images/lipari.webp" type="image/webp" />
+                <img
+                  src="images/lipari.png"
+                  class="w-full h-full object-cover"
+                  alt="Lipari Island historic castle and harbor, largest of the Aeolian Islands"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </picture>
             </div>
             <div>
               <div
@@ -678,22 +699,31 @@
           <div
             class="break-inside-avoid rounded-3xl overflow-hidden hover-lift shadow-lg"
           >
-            <img
-              src="images/20240513_134947.jpg"
-              class="w-full object-cover"
-              loading="lazy"
-              alt="Sailing Moment"
-            />
+            <picture>
+              <source srcset="images/20240513_134947.webp" type="image/webp" />
+              <img
+                src="images/20240513_134947.jpg"
+                class="w-full object-cover"
+                loading="lazy"
+                alt="Crew sailing together on deck during Sicily flotilla adventure"
+              />
+            </picture>
           </div>
           <div
             class="break-inside-avoid rounded-3xl overflow-hidden hover-lift shadow-lg"
           >
-            <img
-              src="images/IMG-20240516-WA0057.jpg"
-              class="w-full object-cover"
-              loading="lazy"
-              alt="Crew Vibes"
-            />
+            <picture>
+              <source
+                srcset="images/IMG-20240516-WA0057.webp"
+                type="image/webp"
+              />
+              <img
+                src="images/IMG-20240516-WA0057.jpg"
+                class="w-full object-cover"
+                loading="lazy"
+                alt="Flotilla crew enjoying sunset drinks aboard sailing yacht"
+              />
+            </picture>
           </div>
 
           <!-- Video Moment -->
@@ -734,33 +764,42 @@
           <div
             class="break-inside-avoid rounded-3xl overflow-hidden hover-lift shadow-lg"
           >
-            <img
-              src="images/20240512_163551.jpg"
-              class="w-full object-cover"
-              loading="lazy"
-              alt="Ocean View"
-            />
+            <picture>
+              <source srcset="images/20240512_163551.webp" type="image/webp" />
+              <img
+                src="images/20240512_163551.jpg"
+                class="w-full object-cover"
+                loading="lazy"
+                alt="Crystal clear Mediterranean waters during Aeolian Islands sailing trip"
+              />
+            </picture>
           </div>
           <!-- Add more images from local folder -->
           <div
             class="break-inside-avoid rounded-3xl overflow-hidden hover-lift shadow-lg"
           >
-            <img
-              src="images/20240517_095341.jpg"
-              class="w-full object-cover"
-              loading="lazy"
-              alt="Sunset"
-            />
+            <picture>
+              <source srcset="images/20240517_095341.webp" type="image/webp" />
+              <img
+                src="images/20240517_095341.jpg"
+                class="w-full object-cover"
+                loading="lazy"
+                alt="Golden sunset over sailing yacht anchored near Sicilian coast"
+              />
+            </picture>
           </div>
           <div
             class="break-inside-avoid rounded-3xl overflow-hidden hover-lift shadow-lg"
           >
-            <img
-              src="images/20240514_061147.jpg"
-              class="w-full object-cover"
-              loading="lazy"
-              alt="Morning Coffee"
-            />
+            <picture>
+              <source srcset="images/20240514_061147.webp" type="image/webp" />
+              <img
+                src="images/20240514_061147.jpg"
+                class="w-full object-cover"
+                loading="lazy"
+                alt="Morning coffee on deck with Mediterranean Sea view during sailing holiday"
+              />
+            </picture>
           </div>
           <div
             class="break-inside-avoid rounded-3xl overflow-hidden hover-lift shadow-lg"
