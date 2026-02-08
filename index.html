@@ -309,7 +309,16 @@
       <!-- Dynamic Background Image (Local) -->
       <div class="absolute inset-0 z-0">
         <picture>
-          <source srcset="images/20240517_094945.webp" type="image/webp" />
+          <!-- Responsive WebP sources for different screen sizes -->
+          <source
+            srcset="
+              images/20240517_094945-mobile.webp 1200w,
+              images/20240517_094945-tablet.webp 2000w,
+              images/20240517_094945.webp        4000w
+            "
+            sizes="100vw"
+            type="image/webp"
+          />
           <img
             src="images/20240517_094945.jpg"
             class="w-full h-full object-cover opacity-60"
@@ -738,7 +747,7 @@
               loop
               playsinline
               preload="metadata"
-              poster="images/IMG-20240517-WA0062.jpg"
+              poster="images/IMG-20240517-WA0062.webp"
               onmouseover="this.play()"
               onmouseout="this.pause()"
             >
