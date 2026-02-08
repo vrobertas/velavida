@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Build tools (kept locally, not needed in production)
+tailwindcss.exe
+src/
+
+# Tailwind config (only needed for rebuilding CSS)
+tailwind.config.js
+
+# Package files
+package.json
+package-lock.json
