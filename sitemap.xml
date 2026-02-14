@@ -1,10 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://www.velavidasails.com/</loc>
-    <lastmod>2026-02-08</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-02-14</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    
+    <!-- Yacht Images -->
+    <image:image>
+      <image:loc>https://www.velavidasails.com/images/lagoon-38.webp</image:loc>
+      <image:title>Lagoon 38 catamaran sailing in Sicily - 2026 flotilla charter</image:title>
+      <image:caption>Award-winning Lagoon 38 catamaran exterior view</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.velavidasails.com/images/lagoon-38-COLLAGE.webp</image:loc>
+      <image:title>Lagoon 38 cockpit dining area - indoor outdoor living space</image:title>
+      <image:caption>Spacious cockpit and interior of the Lagoon 38</image:caption>
+    </image:image>
+
+    <!-- Hero Image -->
+    <image:image>
+      <image:loc>https://www.velavidasails.com/images/20240517_094945.webp</image:loc>
+      <image:title>Sailing yacht cruising through blue Mediterranean waters near Sicily coast</image:title>
+    </image:image>
+
+    <!-- Destinations -->
+    <image:image>
+      <image:loc>https://www.velavidasails.com/images/palermo-2.webp</image:loc>
+      <image:title>Palermo harbor with yachts moored at sunset</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.velavidasails.com/images/vulcano-1-opt.webp</image:loc>
+      <image:title>Vulcano Island volcanic landscape</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.velavidasails.com/images/panarea-1.webp</image:loc>
+      <image:title>Panarea Island whitewashed streets and boutique cafes</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.velavidasails.com/images/stromboli-2.webp</image:loc>
+      <image:title>Stromboli active volcano eruption at night</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.velavidasails.com/images/salina.webp</image:loc>
+      <image:title>Salina Island lush green vineyards</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.velavidasails.com/images/lipari.webp</image:loc>
+      <image:title>Lipari Island historic castle and harbor</image:title>
+    </image:image>
+
+    <!-- Gallery Moments -->
+    <image:image>
+      <image:loc>https://www.velavidasails.com/images/20240513_134947.webp</image:loc>
+      <image:title>Crew sailing together on deck during Sicily flotilla adventure</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.velavidasails.com/images/IMG-20240516-WA0057.webp</image:loc>
+      <image:title>Flotilla crew enjoying sunset drinks aboard sailing yacht</image:title>
+    </image:image>
+     <image:image>
+      <image:loc>https://www.velavidasails.com/images/20240512_163551.webp</image:loc>
+      <image:title>Crystal clear Mediterranean waters during Aeolian Islands sailing trip</image:title>
+    </image:image>
+     <image:image>
+      <image:loc>https://www.velavidasails.com/images/20240517_095341.webp</image:loc>
+      <image:title>Golden sunset over sailing yacht anchored near Sicilian coast</image:title>
+    </image:image>
+     <image:image>
+      <image:loc>https://www.velavidasails.com/images/20240514_061147.webp</image:loc>
+      <image:title>Morning coffee on deck with Mediterranean Sea view</image:title>
+    </image:image>
+     <image:image>
+      <image:loc>https://www.velavidasails.com/images/20240515_152947.jpg</image:loc>
+      <image:title>Lifestyle moments on the water</image:title>
+    </image:image>
+
   </url>
   <url>
     <loc>https://www.velavidasails.com/privacy.html</loc>

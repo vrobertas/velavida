@@ -1,2 +1,4 @@
-# Sitemap location
+User-agent: *
+Allow: /
+
 Sitemap: https://www.velavidasails.com/sitemap.xml
