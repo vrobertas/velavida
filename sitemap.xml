@@ -27,7 +27,7 @@
 
     <!-- Destinations -->
     <image:image>
-      <image:loc>https://www.velavidasails.com/images/palermo-2.webp</image:loc>
+      <image:loc>https://www.velavidasails.com/images/palermo-2-opt.webp</image:loc>
       <image:title>Palermo harbor with yachts moored at sunset</image:title>
     </image:image>
     <image:image>
@@ -59,6 +59,11 @@
     <image:image>
       <image:loc>https://www.velavidasails.com/images/IMG-20240516-WA0057.webp</image:loc>
       <image:title>Flotilla crew enjoying sunset drinks aboard sailing yacht</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.velavidasails.com/images/video-poster-opt.webp</image:loc>
+      <image:title>Video preview of sailing adventures in Sicily</image:title>
+      <image:caption>Click to watch the highlight video of our flotilla</image:caption>
     </image:image>
      <image:image>
       <image:loc>https://www.velavidasails.com/images/20240512_163551.webp</image:loc>
