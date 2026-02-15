@@ -318,6 +318,7 @@
       html {
         line-height: 1.5;
         -webkit-text-size-adjust: 100%;
+        text-size-adjust: 100%;
         font-family:
           ui-sans-serif,
           system-ui,
@@ -426,6 +427,7 @@
       input:where([type="reset"]),
       input:where([type="submit"]) {
         -webkit-appearance: button;
+        appearance: button;
         background-color: transparent;
         background-image: none;
       }
@@ -444,6 +446,7 @@
       }
       [type="search"] {
         -webkit-appearance: textfield;
+        appearance: textfield;
         outline-offset: -2px;
       }
       ::-webkit-search-decoration {
@@ -517,7 +520,6 @@
       svg,
       video {
         display: block;
-        vertical-align: middle;
       }
       img,
       video {
@@ -897,6 +899,7 @@
       }
       .columns-1 {
         -moz-columns: 1;
+        columns: 1;
         column-count: 1;
       }
       .break-inside-avoid {
@@ -1791,6 +1794,7 @@
         }
         .md\:columns-2 {
           -moz-columns: 2;
+          columns: 2;
           column-count: 2;
         }
         .md\:grid-cols-2 {
@@ -1831,6 +1835,7 @@
         }
         .lg\:columns-3 {
           -moz-columns: 3;
+          columns: 3;
           column-count: 3;
         }
         .lg\:grid-cols-2 {
@@ -1904,8 +1909,8 @@
       /* Navigation Blur */
       .glass-nav {
         background: rgba(255, 255, 255, 0.85);
-        backdrop-filter: blur(12px);
         -webkit-backdrop-filter: blur(12px);
+        backdrop-filter: blur(12px);
       }
 
       /* Card Hover Effects */
@@ -2969,6 +2974,7 @@
         <a
           href="https://instagram.com/velavidasails"
           target="_blank"
+          rel="noopener noreferrer"
           class="inline-flex items-center gap-3 text-slate-400 hover:text-white transition-colors duration-300 group mb-8"
         >
           <span
