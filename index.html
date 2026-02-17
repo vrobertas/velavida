@@ -11,7 +11,7 @@
     <!-- Primary Meta Tags -->
     <meta
       name="description"
-      content="Join the 2026 Elmár Flotilla in Sicily aboard the award-winning Lagoon 38 catamaran. May 16-23. 4 cabins, 10 berths. Book your spot now for €550/person."
+      content="Join the 2026 Elmár Flotilla in Sicily aboard the award-winning Lagoon 38 catamaran. May 16-23. 4 cabins, 10 berths. Book your spot now for €650/person."
     />
     <meta
       name="keywords"
@@ -86,7 +86,7 @@
             },
             "offers": {
               "@type": "Offer",
-              "price": "550",
+              "price": "650",
               "priceCurrency": "EUR",
               "availability": "https://schema.org/InStock",
               "url": "https://www.velavidasails.com/#join"
@@ -118,7 +118,7 @@
             "offers": {
               "@type": "Offer",
               "name": "Catamaran Berth",
-              "price": "550",
+              "price": "650",
               "priceCurrency": "EUR",
               "availability": "https://schema.org/InStock",
               "url": "https://www.velavidasails.com/#join",
@@ -195,6 +195,7 @@
 
     <!-- Optimized Tailwind CSS (only used classes, minified) -->
     <!-- Optimized Tailwind CSS (Inlined for Performance) -->
+    <link rel="stylesheet" href="css/styles.css">
     <style>
       *,
       :after,
@@ -2776,7 +2777,7 @@
               <div class="text-xs uppercase tracking-widest text-blue-400 mb-2">
                 Lagoon 38 Catamaran
               </div>
-              <div class="text-5xl font-serif mb-2">€550</div>
+              <div class="text-5xl font-serif mb-2">€650</div>
               <div class="text-sm opacity-60 mb-10">per person</div>
 
               <a
@@ -2948,12 +2949,65 @@
             needed—just a love for the sea.
           </p>
 
-          <a
-            href="mailto:velavidasails@outlook.ie?subject=Sicily%202026%20Inquiry"
-            class="inline-block bg-blue-600 text-white px-10 py-5 rounded-full text-sm font-bold uppercase tracking-widest hover:bg-blue-700 transition shadow-lg shadow-blue-600/30"
+          <form
+            id="contact-form"
+            action="https://formspree.io/f/xaqdjrvk"
+            method="POST"
+            class="max-w-md mx-auto space-y-4 text-left"
           >
-            Request Info Packet
-          </a>
+            <!-- Form Status Messages -->
+            <div id="form-status" class="hidden rounded-xl p-4 text-sm font-bold"></div>
+
+            <div>
+              <label for="name" class="block text-sm font-bold text-slate-700 mb-1"
+                >Name</label
+              >
+              <input
+                type="text"
+                name="name"
+                id="name"
+                required
+                class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition-all"
+                placeholder="Your Name"
+              />
+            </div>
+            <div>
+              <label for="email" class="block text-sm font-bold text-slate-700 mb-1"
+                >Email</label
+              >
+              <input
+                type="email"
+                name="email"
+                id="email"
+                required
+                class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition-all"
+                placeholder="your@email.com"
+              />
+            </div>
+            <div>
+              <label
+                for="message"
+                class="block text-sm font-bold text-slate-700 mb-1"
+                >Message / Request</label
+              >
+              <textarea
+                name="message"
+                id="message"
+                rows="4"
+                required
+                class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition-all"
+                placeholder="I'm interested in joining the flotilla..."
+              ></textarea>
+            </div>
+            <div class="text-center pt-2">
+              <button
+                type="submit"
+                class="inline-block bg-blue-600 text-white px-10 py-4 rounded-full text-sm font-bold uppercase tracking-widest hover:bg-blue-700 transition shadow-lg shadow-blue-600/30 w-full md:w-auto"
+              >
+                Send Request
+              </button>
+            </div>
+          </form>
         </div>
 
         <!-- Decorative circle -->
@@ -3127,6 +3181,57 @@
       document.addEventListener("keydown", function (event) {
         if (event.key === "Escape") {
           closeVideoModal();
+        }
+      });
+
+      /* AJAX Form Submission */
+      document.addEventListener("DOMContentLoaded", function() {
+        const contactForm = document.getElementById("contact-form");
+        const formStatus = document.getElementById("form-status");
+
+        if (contactForm) {
+          contactForm.addEventListener("submit", async function (event) {
+            event.preventDefault(); // STOP redirected submission
+            event.stopPropagation();
+            
+            const data = new FormData(contactForm);
+
+            // Reset status
+            formStatus.classList.add("hidden");
+            formStatus.classList.remove("bg-green-100", "text-green-700", "bg-red-100", "text-red-700");
+            
+            try {
+              const response = await fetch(contactForm.action, {
+                method: contactForm.method,
+                body: data,
+                headers: {
+                  Accept: "application/json",
+                },
+              });
+
+              if (response.ok) {
+                formStatus.innerHTML = "Thanks! Your message has been sent. <br> We'll be in touch soon.";
+                formStatus.classList.remove("hidden");
+                formStatus.classList.add("bg-green-100", "text-green-800", "border", "border-green-200");
+                contactForm.reset();
+              } else {
+                const result = await response.json();
+                if (result.errors) {
+                   formStatus.textContent = result.errors.map(error => error.message).join(", ");
+                } else {
+                   formStatus.textContent = "Oops! There was a problem submitting your form.";
+                }
+                formStatus.classList.remove("hidden");
+                formStatus.classList.add("bg-red-100", "text-red-700");
+              }
+            } catch (error) {
+              console.error("Form submit error", error);
+              formStatus.textContent = "Oops! There was a problem submitting your form. Please try again later or email us directly.";
+              formStatus.classList.remove("hidden");
+              formStatus.classList.add("bg-red-100", "text-red-700");
+            }
+            return false;
+          });
         }
       });
     </script>
