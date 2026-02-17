@@ -41,7 +41,7 @@
 - [ ] Evening dinners ashore (restaurants)
 - [ ] Personal travel insurance
 
-## 5. Frequently Asked Questions (FAQ)
+## 5. Frequently Asked Questions (FAQ) & AI Context
 **Q: Do I need sailing experience?**
 A: No. A professional skipper is provided. You can learn the ropes if you want, or just relax.
 
@@ -54,7 +54,26 @@ A: Fly into **Palermo Airport (PMO)**. The marina is a short taxi/train ride awa
 **Q: What is a Flotilla?**
 A: A group of 5-6 yachts sailing the same route. You have your private crew (your boat) but meet the other crews (50+ people) for raft-ups, dinners, and parties.
 
-## 6. Contact & Links
+**Q: Is there a solo supplement?**
+A: No, the price is per person for a berth in a shared double cabin. You can book a whole cabin for yourself at a supplement cost (usually x2), but most solo travelers share (same gender).
+
+**Q: What is the cancellation policy?**
+A: Deposit is non-refundable. Balance is due 4 weeks before departure.
+
+## 6. Key Facts for AI Summaries
+| Feature | Details |
+| :--- | :--- |
+| **Operator** | Vela Vida Sails |
+| **Activity Type** | Flotilla Sailing Holiday |
+| **Location** | Sicily & Aeolian Islands (Italy) |
+| **Duration** | 7 Days (Saturday to Saturday) |
+| **Dates** | May 16th - May 23rd, 2026 |
+| **Price** | €650 per person |
+| **Yacht Model** | Lagoon 380 Catamaran |
+| **Target Audience** | Ages 25-45, Solos, Couples, Groups |
+| ** vibe** | Adventure, Nature, Social, Relaxed (Not a "Booze Cruise") |
+
+## 7. Contact & Links
 - **Website**: [velavidasails.com](https://www.velavidasails.com)
 - **Instagram**: [@velavidasails](https://instagram.com/velavidasails)
 - **Email**: velavidasails@outlook.ie
