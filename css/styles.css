@@ -2308,3 +2308,119 @@ video {
     line-height: 1;
   }
 }
+
+/* === Skipper Section === */
+.skipper-deco-ring {
+  width: 340px;
+  height: 340px;
+  border: 2px dashed rgba(59, 130, 246, 0.15);
+  border-radius: 50%;
+}
+
+.skipper-compass-dot {
+  width: 8px;
+  height: 8px;
+  background: #3b82f6;
+  border-radius: 50%;
+  opacity: 0.3;
+}
+
+.skipper-compass-n { top: 0; left: 50%; transform: translateX(-50%); }
+.skipper-compass-s { bottom: 0; left: 50%; transform: translateX(-50%); }
+.skipper-compass-w { top: 50%; left: 0; transform: translateY(-50%); }
+.skipper-compass-e { top: 50%; right: 0; transform: translateY(-50%); }
+
+.skipper-photo-frame {
+  width: 300px;
+  height: 300px;
+}
+
+.skipper-photo-gradient {
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #3b82f6, #0ea5e9, #06b6d4);
+  padding: 4px;
+}
+
+.skipper-photo-inner {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: white;
+  padding: 4px;
+}
+
+.skipper-photo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.skipper-badge {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: linear-gradient(135deg, #1e40af, #3b82f6);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
+  text-transform: uppercase;
+}
+
+.skipper-name {
+  font-weight: 700;
+}
+
+.skipper-title {
+  color: #3b82f6;
+  font-weight: 600;
+  font-size: 0.875rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.skipper-bio {
+  font-size: 1.05rem;
+}
+
+.skipper-trust-grid {
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.skipper-trust-card {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 1.25rem;
+  padding: 1.25rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.skipper-trust-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.skipper-trust-icon {
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.skipper-trust-label {
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: #0f172a;
+}
+
+.skipper-trust-desc {
+  font-size: 0.75rem;
+  color: #94a3b8;
+}
