@@ -1935,12 +1935,50 @@
         line-height: 1.8;
         opacity: 0.8;
       }
+
+      /* Urgency Banner & Badge Styles */
+      .urgency-bar {
+        background: linear-gradient(90deg, #b45309, #d97706, #b45309);
+        background-size: 200% 100%;
+        animation: urgency-shimmer 3s linear infinite;
+      }
+      @keyframes urgency-shimmer {
+        0% { background-position: 200% 0; }
+        100% { background-position: -200% 0; }
+      }
+      @keyframes urgency-pulse {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.85; transform: scale(1.03); }
+      }
+      .urgency-badge {
+        animation: urgency-pulse 2s ease-in-out infinite;
+      }
+      @keyframes urgency-dot-blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.3; }
+      }
+      .urgency-dot {
+        animation: urgency-dot-blink 1.2s ease-in-out infinite;
+      }
+      .urgency-glow {
+        box-shadow: 0 0 20px rgba(217, 119, 6, 0.3), 0 0 60px rgba(217, 119, 6, 0.1);
+      }
     </style>
   </head>
   <body class="antialiased selection:bg-blue-100 selection:text-blue-900">
+    <!-- Urgency Announcement Bar -->
+    <div class="urgency-bar fixed w-full z-50 top-0 left-0 text-center py-2 px-4" id="urgency-bar">
+      <a href="#join" class="flex items-center justify-center gap-2 text-white text-xs font-bold uppercase tracking-widest">
+        <span class="urgency-dot inline-block w-2 h-2 rounded-full bg-white"></span>
+        <span>Only 3 Spots Left — Secure Your Berth Now</span>
+        <span class="urgency-dot inline-block w-2 h-2 rounded-full bg-white"></span>
+      </a>
+    </div>
+
     <!-- Navigation -->
     <nav
-      class="fixed w-full z-50 top-0 left-0 border-b border-slate-200/50 glass-nav"
+      class="fixed w-full z-50 left-0 border-b border-slate-200/50 glass-nav"
+      style="top: 36px;"
     >
       <div
         class="max-w-7xl mx-auto px-6 h-24 flex justify-between items-center transition-all duration-300"
@@ -2030,13 +2068,21 @@
         class="relative z-10 max-w-7xl mx-auto w-full grid lg:grid-cols-2 gap-16 items-end"
       >
         <div>
-          <div
-            class="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-white/10 backdrop-blur border border-white/20 text-white mb-8"
-          >
-            <span class="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></span>
-            <span class="text-xs font-bold uppercase tracking-widest"
-              >Sicily Edition</span
+          <div class="flex flex-wrap items-center gap-3 mb-8">
+            <div
+              class="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-white/10 backdrop-blur border border-white/20 text-white"
             >
+              <span class="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></span>
+              <span class="text-xs font-bold uppercase tracking-widest"
+                >Sicily Edition</span
+              >
+            </div>
+            <div
+              class="urgency-badge inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-500/90 backdrop-blur border border-amber-400/50 text-white urgency-glow"
+            >
+              <span class="urgency-dot w-2 h-2 rounded-full bg-white"></span>
+              <span class="text-xs font-bold uppercase tracking-widest">Only 3 Spots Left</span>
+            </div>
           </div>
 
           <h1
@@ -2879,6 +2925,11 @@
             ></div>
 
             <div class="relative z-10 text-center">
+              <!-- Scarcity Badge -->
+              <div class="urgency-badge inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-500 text-white text-[0.65rem] font-bold uppercase tracking-widest mb-4">
+                <span class="urgency-dot w-1.5 h-1.5 rounded-full bg-white"></span>
+                Only 3 Spots Left
+              </div>
               <div class="text-xs uppercase tracking-widest text-blue-400 mb-2">
                 Lagoon 38 Catamaran
               </div>
@@ -3047,6 +3098,11 @@
         class="max-w-3xl mx-auto bg-white rounded-[3rem] p-12 md:p-16 border border-slate-200 shadow-2xl text-center relative overflow-hidden"
       >
         <div class="relative z-10">
+          <!-- Urgency Notice -->
+          <div class="urgency-badge inline-flex items-center gap-2 px-5 py-2 rounded-full bg-amber-50 border border-amber-200 text-amber-800 mb-6 urgency-glow" style="box-shadow: 0 0 15px rgba(217, 119, 6, 0.15);">
+            <span class="urgency-dot w-2 h-2 rounded-full bg-amber-500"></span>
+            <span class="text-xs font-bold uppercase tracking-widest">Only 3 Spots Remaining</span>
+          </div>
           <h2 class="text-4xl md:text-5xl mb-6">Secure Your Berth</h2>
           <p class="text-slate-600 mb-10 max-w-lg mx-auto">
             We're looking for open-minded crew members to join our Lagoon 38
