@@ -122,10 +122,26 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- English FAQ Page -->
+  <url>
+    <loc>https://www.velavidasails.com/faq.html</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Lithuanian FAQ Page -->
+  <url>
+    <loc>https://www.velavidasails.com/lt/faq.html</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
   <!-- Privacy Policy -->
   <url>
     <loc>https://www.velavidasails.com/privacy.html</loc>
-    <lastmod>2026-07-01</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -133,7 +149,7 @@
   <!-- LLMs.txt for AI Search Engines -->
   <url>
     <loc>https://www.velavidasails.com/llms.txt</loc>
-    <lastmod>2026-07-01</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
