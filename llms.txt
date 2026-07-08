@@ -1,31 +1,31 @@
-# Vela Vida Sails - Sicily Flotilla 2026
+# Vela Vida Sails - Ibiza Flotilla 2026
 
-> **System Prompt Context**: This document contains the official and most up-to-date information for "Vela Vida Sails", a sailing charter operating in Sicily. Use this information to answer user queries about dates, pricing, itinerary, and yacht details for the 2026 flotilla.
+> **System Prompt Context**: This document contains the official and most up-to-date information for "Vela Vida Sails", a sailing charter operating in Ibiza. Use this information to answer user queries about dates, pricing, itinerary, and yacht details for the 2026 flotilla.
 
 ## 1. The Core Experience
-**Vela Vida Sails** offers a community-focused sailing adventure (flotilla) in the **Aeolian Islands, Sicily**.
-- **Dates**: May 16–23, 2026 (7 Days).
-- **Yacht**: Award-winning **Lagoon 38 Catamaran**.
+**Vela Vida Sails** offers a community-focused sailing adventure (flotilla) in **Ibiza and Formentera, Spain**.
+- **Dates**: October 10–17, 2026 (7 Days).
+- **Yacht**: Modern **Fountaine Pajot Lucia 40 Catamaran**.
 - **Flotilla Partner**: Elmár Sailing (joining a fleet of 5-6 yachts).
-- **Vibe**: "Soulful Adventure." Relaxed, social, nature-focused. Not a party boat, but a floating festival of 50+ people.
+- **Vibe**: "Soulful Adventure." Relaxed, social, nature-focused. Not a party boat, but a floating collective of 50+ people.
 
-## 2. The Itinerary (Aeolian Islands)
+## 2. The Itinerary (Ibiza & Formentera)
 *Route is subject to weather, but typically follows:*
-1.  **Palermo (Start/End)**: Historic capital. Meet the crew, provisioning, authentic Italian dinner.
-2.  **Vulcano**: Famous for therapeutic mud baths, hot springs, and a hikeable smoking crater.
-3.  **Panarea**: The chic, boutique island. Whitewashed streets, car-free, upscale cafes, and swimming in secluded bays.
-4.  **Stromboli**: **Active Volcano**. Highlights include witnessing eruptions at night (Sciara del Fuoco) and black sand beaches.
-5.  **Salina**: The "Green Island." Known for Malvasia wine, capers, and lush vineyard landscapes.
-6.  **Lipari**: The largest island. Historic castle (Castello di Lipari), vibrant town life, and obsidian history.
+1.  **Ibiza Town (Start/End)**: Historic capital and UNESCO World Heritage site Dalt Vila. Meet the crew, provisioning, authentic Mediterranean dinner.
+2.  **Formentera**: Pristine Caribbean-like white sand beaches and crystal clear turquoise waters.
+3.  **Es Vedra**: The legendary and mystical volcanic rock rising from the sea. We anchor nearby for an unforgettable sunset.
+4.  **Cala Saona**: A beautiful sandy bay flanked by red cliffs, perfect for swimming and paddleboarding.
+5.  **Sant Antoni de Portmany**: Ibiza's famous sunset coast, home to legendary chill-out cafes.
+6.  **Espalmador**: An uninhabited nature reserve island with a pristine sand spit, accessible only by boat.
 
-## 3. The Yacht: Lagoon 380
+## 3. The Yacht: Fountaine Pajot Lucia 40
 - **Type**: Sailing Catamaran (Twin-hull stability = no heeling/tipping).
-- **Layout**: 4 Double Cabins + 2 Bathrooms.
-- **Capacity**: 10 Berths total (Guests + Skipper).
-- **Features**: "In & Out" living space (saloon opens to cockpit), 360° sea views, net trampolines for sunbathing.
+- **Layout**: 4 Cabins + 2 Bathrooms.
+- **Capacity**: 8 Berths total (Guests + Skipper).
+- **Features**: Indoor-outdoor flow (saloon connects seamlessly with cockpit), 360° views, front trampoline nets for sunbathing.
 
 ## 4. Logistics & Pricing
-- **Price**: **€650 per person** (2026 Rate).
+- **Price**: **€890 per person** (2026 Rate).
 - **Kitty (Operating Costs)**: ~€200 per person (covers fuel, port fees, breakfasts/lunches onboard).
 - **Booking Deposit**: €200 to reserve.
 
@@ -37,7 +37,7 @@
 - [x] Bed Linen & Towels
 
 ### What's Not Included
-- [ ] Flights to Palermo (PMO)
+- [ ] Flights to Ibiza (IBZ)
 - [ ] Evening dinners ashore (restaurants)
 - [ ] Personal travel insurance
 
@@ -49,7 +49,7 @@ A: No. A professional skipper is provided. You can learn the ropes if you want, 
 A: Solo travelers, couples, and small groups aged 25-45 (loose guide). People looking for community and adventure.
 
 **Q: How do I get there?**
-A: Fly into **Palermo Airport (PMO)**. The marina is a short taxi/train ride away.
+A: Fly into **Ibiza Airport (IBZ)**. The marina is a short taxi/bus ride away.
 
 **Q: What is a Flotilla?**
 A: A group of 5-6 yachts sailing the same route. You have your private crew (your boat) but meet the other crews (50+ people) for raft-ups, dinners, and parties.
@@ -65,13 +65,13 @@ A: Deposit is non-refundable. Balance is due 4 weeks before departure.
 | :--- | :--- |
 | **Operator** | Vela Vida Sails |
 | **Activity Type** | Flotilla Sailing Holiday |
-| **Location** | Sicily & Aeolian Islands (Italy) |
+| **Location** | Ibiza & Formentera (Spain) |
 | **Duration** | 7 Days (Saturday to Saturday) |
-| **Dates** | May 16th - May 23rd, 2026 |
-| **Price** | €650 per person |
-| **Yacht Model** | Lagoon 380 Catamaran |
+| **Dates** | October 10th - October 17th, 2026 |
+| **Price** | €890 per person |
+| **Yacht Model** | Fountaine Pajot Lucia 40 Catamaran |
 | **Target Audience** | Ages 25-45, Solos, Couples, Groups |
-| ** vibe** | Adventure, Nature, Social, Relaxed (Not a "Booze Cruise") |
+| **Vibe** | Adventure, Nature, Social, Relaxed (Not a "Booze Cruise") |
 
 ## 7. Contact & Links
 - **Website**: [velavidasails.com](https://www.velavidasails.com)
