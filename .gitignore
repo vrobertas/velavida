@@ -11,3 +11,8 @@ tailwind.config.js
 # Package files
 package.json
 package-lock.json
+
+# IDE configs
+.cursor/
+.vscode/
+

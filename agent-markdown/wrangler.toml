@@ -1,0 +1,12 @@
+name = "velavida-agent-markdown"
+main = "src/worker.js"
+compatibility_date = "2026-03-01"
+account_id = "7e327a303e248254422ccac2e463adb6"
+
+routes = [
+  { pattern = "www.velavidasails.com/*", zone_name = "velavidasails.com" },
+  { pattern = "velavidasails.com/*", zone_name = "velavidasails.com" }
+]
+
+[observability]
+enabled = true

@@ -172,4 +172,37 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
+  <!-- The Skipper's Journal / Blog Hub -->
+  <url>
+    <loc>https://www.velavidasails.com/blog/</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Sailing Ibiza & Formentera in October Article -->
+  <url>
+    <loc>https://www.velavidasails.com/blog/sailing-ibiza-formentera-october.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.velavidasails.com/images/formentera.png</image:loc>
+      <image:title>Sailing Ibiza and Formentera in October - Balearic catamaran flotilla</image:title>
+      <image:caption>Turquoise shallow waters of Formentera in October</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.velavidasails.com/images/lucia-40-exterior.png</image:loc>
+      <image:title>Fountaine Pajot Lucia 40 catamaran under sail</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.velavidasails.com/images/es-vedra.png</image:loc>
+      <image:title>Es Vedra limestone rock paddleboarding</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.velavidasails.com/images/skipper-robertas.webp</image:loc>
+      <image:title>Skipper Robertas Vaitiekunas</image:title>
+    </image:image>
+  </url>
 </urlset>
