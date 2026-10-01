@@ -185,16 +185,17 @@ Spalio 10-17, 2026.
 - ● Buriavimo praktika ir patarimai
 - ● Pagalba planuojant kelionę
 
-                  Paskutinės minutės pasiūlymas
+                  Paskutinės minutės pasiūlymas prieinamas
 
                   Aktyvi rezervacija
 
                 Lucia 40 Katamaranas
 
-                €1,550
+                €1,440
                 €1,340
 
-              Speciali paskutinės minutės kaina
+                Sutaupykite 100 € · Speciali kaina
+
               asmeniui · 7 naktys laive
 
                [Rezervuoti paskutinę vietą](#join)

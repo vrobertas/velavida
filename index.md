@@ -190,16 +190,17 @@ October 10-17, 2026.
 - ● Pre-trip Planning
                 Assistance
 
-                  Last Minute Offer
+                  Last Minute Offer Available
 
                   Active Booking
 
                 Lucia 40 Catamaran
 
-                €1,550
+                €1,440
                 €1,340
 
-              Last Minute Special Rate
+                Save €100 · Last Minute Rate
+
               per person · 7 nights onboard
 
                [Claim Last Minute Berth](#join)
