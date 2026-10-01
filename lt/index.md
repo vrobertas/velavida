@@ -1,6 +1,6 @@
 ---
-title: "Ibizos & Formenteros Katamaranų Savaitė 2026 — rezervuok vietą nuo €890 | Vela Vida"
-description: "Buriavimo savaitė katamaranu Ibizoje ir Formenteroje, spalio 10–17, 2026. Rezervuok vietą nuo €890 — patirtis nebūtina, tinka keliaujantiems vieniems. Tik 8 vietos."
+title: "Ibizos & Formenteros Katamaranų Savaitė 2026 — Paskutinės minutės pasiūlymas nuo €1340 | Vela Vida"
+description: "Buriavimo savaitė katamaranu Ibizoje ir Formenteroje, spalio 10–17, 2026. Paskutinės minutės pasiūlymas nuo 1 340 € — patirtis nebūtina, tinka keliaujantiems vieniems. Tik 8 vietos."
 image: "https://www.velavidasails.com/images/lucia-40-exterior.png"
 ---
 
@@ -185,16 +185,21 @@ Spalio 10-17, 2026.
 - ● Buriavimo praktika ir patarimai
 - ● Pagalba planuojant kelionę
 
-                Aktyvi rezervacija
+                  Paskutinės minutės pasiūlymas
+
+                  Aktyvi rezervacija
 
                 Lucia 40 Katamaranas
 
-              €890
-              asmeniui
+                €1,550
+                €1,340
 
-               [Teirautis dabar](#join)
+              Speciali paskutinės minutės kaina
+              asmeniui · 7 naktys laive
 
-Vietų skaičius ribotas (max 8).
+               [Rezervuoti paskutinę vietą](#join)
+
+Išvykimas už 9 dienų · Liko tik 2 vietos
 
 ### ✕
               Papildomos išlaidos
@@ -253,8 +258,8 @@ Esate pasiruošę tyrinėti Ibizą katamaranu? Atsiųskite užklausą ir mes sus
   },
   "offers": {
     "@type": "Offer",
-    "name": "Vieta katamarane Fountaine Pajot Lucia 40",
-    "price": "890",
+    "name": "Paskutinės minutės vieta katamarane Fountaine Pajot Lucia 40",
+    "price": "1340",
     "priceCurrency": "EUR",
     "availability": "https://schema.org/InStock",
     "validFrom": "2026-01-01",

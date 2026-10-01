@@ -1,6 +1,6 @@
 ---
-title: "Ibiza & Formentera Catamaran Week 2026 — Book a Berth from €890 | Vela Vida"
-description: "Join a catamaran week in Ibiza & Formentera, October 10–17, 2026. Book a single berth from €890 — solo travellers welcome, no sailing experience needed. 8 spots only."
+title: "Ibiza & Formentera Catamaran Week 2026 — Last Minute Offer from €1,340 | Vela Vida"
+description: "Join a catamaran week in Ibiza & Formentera, October 10–17, 2026. Last minute offer from €1,340 — solo travellers welcome, no sailing experience needed. 8 spots only."
 image: "https://www.velavidasails.com/images/lucia-40-exterior.png"
 ---
 
@@ -190,16 +190,21 @@ October 10-17, 2026.
 - ● Pre-trip Planning
                 Assistance
 
-                Active Booking
+                  Last Minute Offer
+
+                  Active Booking
 
                 Lucia 40 Catamaran
 
-              €890
-              per person
+                €1,550
+                €1,340
 
-               [Inquire Now](#join)
+              Last Minute Special Rate
+              per person · 7 nights onboard
 
-Berths are limited to 8 max.
+               [Claim Last Minute Berth](#join)
+
+Departure in 9 days · Only 2 berths left
 
 ### ✕
               Additional Costs
@@ -259,8 +264,8 @@ Ready to explore Ibiza aboard a luxury catamaran? Send us an inquiry to request 
   },
   "offers": {
     "@type": "Offer",
-    "name": "Berth on Fountaine Pajot Lucia 40 catamaran",
-    "price": "890",
+    "name": "Last Minute Berth on Fountaine Pajot Lucia 40 catamaran",
+    "price": "1340",
     "priceCurrency": "EUR",
     "availability": "https://schema.org/InStock",
     "validFrom": "2026-01-01",

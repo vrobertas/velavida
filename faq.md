@@ -1,6 +1,6 @@
 ---
 title: "Flotilla Sailing FAQ | Ibiza Catamaran Trip 2026 | Vela Vida"
-description: "Everything about joining our Ibiza flotilla: no sailing experience needed, solo travellers welcome, book a single berth from €890. Dates, costs, packing list & more."
+description: "Everything about joining our Ibiza flotilla: no sailing experience needed, solo travellers welcome, book a single berth from €1,340 with our last minute offer. Dates, costs, packing list & more."
 image: "https://www.velavidasails.com/images/lucia-40-exterior.png"
 ---
 
@@ -18,7 +18,7 @@ Yes — many of our guests book alone. You book a single berth, share the catama
 
             How much does it cost and what's included?
 
-The berth price is  **€890 per person**  for the week. It includes the yacht charter and insurance, professional skipper, dinghy with outboard, final cleaning, bed linen and towels, sailing guidance, and pre-trip planning help.
+The berth price is currently  **€1,340 per person**  (special last minute offer) for the week. It includes the yacht charter and insurance, professional skipper, dinghy with outboard, final cleaning, bed linen and towels, sailing guidance, and pre-trip planning help.
 
 Not included: an operating kitty of ~€200 (fuel, marina fees, breakfast/lunch provisions), a refundable €250 security deposit, flights, transfers, and restaurant dinners.
 
@@ -48,7 +48,7 @@ Send an inquiry via the  [form on our homepage](index.html#join)  or message us 
 
 ## Ready to Join the Ibiza Flotilla?
 
-October 10–17, 2026 · Fountaine Pajot Lucia 40 · €890 per person
+October 10–17, 2026 · Fountaine Pajot Lucia 40 · €1,340 per person (Last Minute Offer)
 
            [Inquire Now](index.html#join)
 
@@ -86,7 +86,7 @@ October 10–17, 2026 · Fountaine Pajot Lucia 40 · €890 per person
       "name": "How much does the Ibiza flotilla cost and what is included?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The berth price is €890 per person for the week (October 10–17, 2026). It includes the yacht charter and insurance, professional skipper, dinghy with outboard, final cleaning, bed linen and towels, sailing guidance, and pre-trip planning help. Not included: an operating kitty of about €200 (fuel, marina fees, breakfast and lunch provisions), a refundable €250 security deposit, flights, transfers, and restaurant dinners."
+        "text": "The berth price is currently €1,340 per person with our special last minute offer for the week (October 10–17, 2026). It includes the yacht charter and insurance, professional skipper, dinghy with outboard, final cleaning, bed linen and towels, sailing guidance, and pre-trip planning help. Not included: an operating kitty of about €200 (fuel, marina fees, breakfast and lunch provisions), a refundable €250 security deposit, flights, transfers, and restaurant dinners."
       }
     },
     {

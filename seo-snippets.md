@@ -7,8 +7,8 @@ All snippets go inside `<head>` unless noted otherwise.
 ## 1. index.html (EN) — replace title + meta
 
 ```html
-<title>Ibiza Flotilla Sailing 2026 — Book a Catamaran Berth from €890 | Vela Vida</title>
-<meta name="description" content="Join a catamaran flotilla in Ibiza & Formentera, October 10–17, 2026. Book a single berth from €890 — solo travellers welcome, no sailing experience needed. 8 spots only.">
+<title>Ibiza Flotilla Sailing 2026 — Last Minute Offer from €1,340 | Vela Vida</title>
+<meta name="description" content="Join a catamaran flotilla in Ibiza & Formentera, October 10–17, 2026. Last minute offer from €1,340 — solo travellers welcome, no sailing experience needed. 8 spots only.">
 ```
 
 Delete the `meta keywords` tag entirely (Google ignores it, and yours contains
@@ -55,8 +55,8 @@ Paste before `</head>`:
   },
   "offers": {
     "@type": "Offer",
-    "name": "Berth on Fountaine Pajot Lucia 40 catamaran",
-    "price": "890",
+    "name": "Last Minute Berth on Fountaine Pajot Lucia 40 catamaran",
+    "price": "1340",
     "priceCurrency": "EUR",
     "availability": "https://schema.org/InStock",
     "validFrom": "2026-01-01",
@@ -95,8 +95,8 @@ Paste before `</head>`:
 ## 4. lt/index.html — replace title + meta
 
 ```html
-<title>Buriavimas Ibizoje 2026 — katamaranų flotilė, vieta nuo €890 | Vela Vida</title>
-<meta name="description" content="Buriavimo savaitė katamaranu Ibizoje ir Formenteroje, spalio 10–17, 2026. Rezervuok vietą nuo €890 — patirtis nebūtina, tinka keliaujantiems vieniems. Tik 8 vietos.">
+<title>Buriavimas Ibizoje 2026 — paskutinės minutės pasiūlymas, vieta nuo €1340 | Vela Vida</title>
+<meta name="description" content="Buriavimo savaitė katamaranu Ibizoje ir Formenteroje, spalio 10–17, 2026. Paskutinės minutės pasiūlymas nuo 1 340 € — patirtis nebūtina, tinka keliaujantiems vieniems. Tik 8 vietos.">
 ```
 
 hreflang (same block on the LT page):
@@ -137,7 +137,7 @@ hreflang (same block on the LT page):
   "offers": {
     "@type": "Offer",
     "name": "Vieta katamarane Fountaine Pajot Lucia 40",
-    "price": "890",
+    "price": "1340",
     "priceCurrency": "EUR",
     "availability": "https://schema.org/InStock",
     "validFrom": "2026-01-01",
