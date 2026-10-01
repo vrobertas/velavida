@@ -208,6 +208,72 @@
         line-height: 1.8;
         opacity: 0.8;
       }
+
+      /* Last Minute Offer Announcement Bar */
+      .last-minute-banner {
+        background: linear-gradient(90deg, #d97706 0%, #f59e0b 25%, #fbbf24 50%, #f59e0b 75%, #d97706 100%);
+        color: #0f172a;
+        border-bottom: 2px solid #b45309;
+        box-shadow: 0 4px 14px rgba(217, 119, 6, 0.3);
+      }
+
+      .last-minute-pill {
+        background: #0f172a;
+        color: #fbbf24;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        padding: 4px 12px;
+        border-radius: 9999px;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 0.68rem;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      }
+
+      .last-minute-btn {
+        background: #0f172a;
+        color: #ffffff !important;
+        padding: 5px 14px;
+        border-radius: 9999px;
+        font-weight: 700;
+        font-size: 0.72rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        transition: all 0.2s ease;
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        box-shadow: 0 2px 6px rgba(15, 23, 42, 0.3);
+      }
+      .last-minute-btn:hover {
+        background: #1e3a8a;
+        color: #ffffff !important;
+        transform: translateY(-1px);
+        box-shadow: 0 4px 10px rgba(15, 23, 42, 0.4);
+      }
+
+      /* Diagonal Strikeout for Struck Price */
+      .price-strike-diagonal {
+        position: relative;
+        display: inline-block;
+        color: #64748b;
+        font-weight: 600;
+        padding: 0 4px;
+      }
+      .price-strike-diagonal::after {
+        content: '';
+        position: absolute;
+        left: -2px;
+        right: -2px;
+        top: 50%;
+        height: 2.5px;
+        background: #e11d48;
+        transform: rotate(-12deg);
+        border-radius: 2px;
+        box-shadow: 0 0 2px rgba(225, 29, 72, 0.5);
+      }
     </style>
   </head>
   <body class="antialiased selection:bg-blue-100 selection:text-blue-900">
@@ -218,21 +284,21 @@
       <!-- Last Minute Offer Announcement Bar -->
       <aside
         aria-label="Last minute offer announcement"
-        class="bg-[#fef3c7] text-slate-900 text-[0.72rem] sm:text-xs py-2.5 px-4 border-b border-[#fcd34d] text-center font-medium tracking-wide flex flex-wrap items-center justify-center gap-x-3 gap-y-1.5 relative z-50 shadow-sm"
+        class="last-minute-banner py-2.5 px-4 text-center font-medium tracking-wide flex flex-wrap items-center justify-center gap-x-3 gap-y-2 relative z-50 text-xs"
       >
-        <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-amber-400 text-slate-950 font-black uppercase tracking-wider text-[0.62rem] shadow-sm shrink-0">
+        <span class="last-minute-pill shrink-0">
           <span class="relative flex h-2 w-2">
-            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-slate-950 opacity-75"></span>
-            <span class="relative inline-flex rounded-full h-2 w-2 bg-slate-950"></span>
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-2 w-2 bg-amber-400"></span>
           </span>
           Last Minute Offer Available
         </span>
-        <span class="text-slate-800 font-medium">
-          Oct 10–17 Ibiza &amp; Formentera — Special rate <span class="line-through text-slate-500 font-normal">€1,440</span> <strong class="text-slate-950 font-bold text-sm">€1,340</strong> per person. <span class="text-amber-900 font-semibold hidden sm:inline">Final spots left!</span>
+        <span class="text-slate-950 font-semibold text-xs sm:text-sm">
+          Oct 10–17 Ibiza &amp; Formentera — Special rate <span class="price-strike-diagonal">€1,440</span> <strong class="text-slate-950 font-black text-sm sm:text-base ml-1">€1,340</strong> per person.
         </span>
         <a
           href="#pricing"
-          class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-slate-900 text-white hover:bg-blue-700 text-[0.7rem] font-bold uppercase tracking-wider transition-all shadow-sm hover:shadow shrink-0 ml-1"
+          class="last-minute-btn shrink-0"
         >
           Claim Berth &rarr;
         </a>
@@ -406,7 +472,7 @@
                   <span class="text-[0.62rem] font-bold px-2 py-0.5 rounded-full bg-amber-400/20 text-amber-300 border border-amber-400/30">Last Minute Offer Available</span>
                 </div>
                 <div class="text-xl font-semibold text-white flex items-baseline gap-2">
-                  <span class="text-slate-400 text-base line-through font-normal decoration-red-400/80">€1,440</span>
+                  <span class="price-strike-diagonal text-slate-400 text-base">€1,440</span>
                   <span class="text-2xl font-bold text-amber-300">€1,340</span>
                   <span class="text-xs font-normal text-slate-400 font-sans">per person</span>
                 </div>
@@ -1046,7 +1112,7 @@
               </div>
 
               <div class="flex items-baseline justify-center gap-3 my-2">
-                <span class="text-2xl sm:text-3xl text-slate-400 line-through font-serif decoration-red-400 decoration-2">€1,440</span>
+                <span class="price-strike-diagonal text-2xl sm:text-3xl font-serif">€1,440</span>
                 <span class="text-5xl md:text-6xl font-serif font-bold text-white tracking-tight">€1,340</span>
               </div>
               <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-400/15 border border-amber-400/30 text-amber-300 text-xs font-semibold tracking-wide uppercase mb-2">
